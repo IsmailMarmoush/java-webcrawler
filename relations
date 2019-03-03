@@ -1,0 +1,11 @@
+Relation
+--------
+website has mailservers
+website has emails
+website has addresses
+website has phones
+person works for a company
+person has emails
+person has phones
+---------------------------
+note that website is a company (even if it's regional branch then it's also a company of its own supposedly )

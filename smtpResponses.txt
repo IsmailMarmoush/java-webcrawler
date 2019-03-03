@@ -1,0 +1,46 @@
+A list a possible SMTP Reply Codes:
+===================================
+Code:Description
+211  System status, or system help reply.
+214  Help message.
+220  Domain service ready.
+     Ready to start TLS.
+221  Domain service closing transmission channel.
+250  OK, queuing for node node started.
+     Requested mail action okay, completed.
+251  OK, no messages waiting for node node.
+     User not local, will forward to forwardpath.
+252  OK, pending messages for node node started.
+     Cannot VRFY user (e.g., info is not local), 
+     but will take message for this user and attempt delivery.
+253  OK, messages pending messages for node node started.
+354  Start mail input; end with ..
+355  Octet-offset is the transaction offset.
+421  Domain service not available, closing transmission channel.
+432  A password transition is needed.
+450  Requested mail action not taken: mailbox unavailable.
+     (ex. mailbox busy)
+451  Requested action aborted: local error in processing.
+     Unable to process ATRN request now
+452  Requested action not taken: insufficient system storage.
+453  You have no mail.
+454  TLS not available due to temporary reason.
+     Encryption required for requested authentication mechanism.
+458  Unable to queue messages for node node.
+459  Node node not allowed: reason.
+500  Command not recognized: command.
+     Syntax error.
+501  Syntax error, no parameters allowed.
+502  Command not implemented.
+503  Bad sequence of commands.
+504  Command parameter not implemented.
+521  Machine does not accept mail.
+530  Must issue a STARTTLS command first.
+     Encryption required for requested authentication mechanism.
+534  Authentication mechanism is too weak.
+538  Encryption required for requested authentication mechanism.
+550  Requested action not taken: mailbox unavailable.
+551  User not local; please try forwardpath.
+552  Requested mail action aborted: exceeded storage allocation.
+553  Requested action not taken: mailbox name not allowed.
+554  Transaction failed.

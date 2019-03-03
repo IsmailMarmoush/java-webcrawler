@@ -1,0 +1,5 @@
+Analysis:
+=========
+1- The crap before emails
+2- replace ; with space
+3- split by space

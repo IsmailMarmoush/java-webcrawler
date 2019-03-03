@@ -1,0 +1,7 @@
+row data collector
+row data
+filter
+adder (level "row")
+checker (editing levels)
+analyst (repeated name, domain, clustering, group levels)
+generator based on analyst ->adder
